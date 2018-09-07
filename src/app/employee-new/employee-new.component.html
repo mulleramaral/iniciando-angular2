@@ -1,4 +1,8 @@
 <label for="name">Nome: </label>
 <input name="name" type="text" [(ngModel)]='name'>
 
-{{ name }}
+<label for="salario">Salario: </label>
+<input type="text" [(ngModel)]='salario'>
+
+<button type="button" (click)="adicionarEmployee()">Adicionar</button>
+<p id="informacao">{{ name }}</p>
